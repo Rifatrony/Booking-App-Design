@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/BookingApp/app/src/main/res/drawable-v24/border.xml" value="0.1345" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/border.xml" value="0.101" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/bottom_navigation_background.xml" value="0.1435" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/calendar.xml" value="0.1" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/car.xml" value="0.1" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/card_background.xml" value="0.1" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/edit_text_background.xml" value="0.1495" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/offer_background.xml" value="0.1255" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/person.xml" value="0.1" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/ratingbar_empty.xml" value="0.1405" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/ratingbar_filled.xml" value="0.1405" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/ratingbar_hotel.xml" value="0.1405" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/round_bottom_dialog_background.xml" value="0.145" />
+        <entry key="..\:/BookingApp/app/src/main/res/drawable/round_button.xml" value="0.1255" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_car.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_dashboard.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_hotel.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_hotel_details.xml" value="0.22592592592592592" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_search.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_search_hotel.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_select_page.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/activity_select_place.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/bottom_dialog.xml" value="0.2" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/dialog_searchable_spinner.xml" value="0.203125" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/fragment_car.xml" value="0.19010416666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/fragment_home.xml" value="0.19010416666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/fragment_hotel.xml" value="0.21" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/fragment_profile.xml" value="0.19010416666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/hotel_sample_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/place_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/search_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/search_place_layout.xml" value="0.3101391650099404" />
+        <entry key="..\:/BookingApp/app/src/main/res/layout/search_place_shimmer_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/BookingApp/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
