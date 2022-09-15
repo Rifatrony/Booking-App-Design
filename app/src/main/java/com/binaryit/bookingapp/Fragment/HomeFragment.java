@@ -1,5 +1,6 @@
 package com.binaryit.bookingapp.Fragment;
 
+import android.annotation.SuppressLint;
 import android.content.Intent;
 import android.os.Bundle;
 
@@ -13,6 +14,7 @@ import android.widget.Toast;
 
 import com.binaryit.bookingapp.Activity.CarActivity;
 import com.binaryit.bookingapp.Activity.HotelActivity;
+import com.binaryit.bookingapp.Activity.TourActivity;
 import com.binaryit.bookingapp.R;
 
 public class HomeFragment extends Fragment implements View.OnClickListener {
@@ -48,6 +50,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
     }
 
+    @SuppressLint("NonConstantResourceId")
     @Override
     public void onClick(View view) {
         switch (view.getId()){
@@ -61,7 +64,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
 
 
             case R.id.tourCardView:
-                Toast.makeText(getContext(), "Tour", Toast.LENGTH_SHORT).show();
+                startActivity(new Intent(getContext(), TourActivity.class));
                 break;
         }
     }

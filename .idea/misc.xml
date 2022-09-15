@@ -3,6 +3,13 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/activity_car.xml" value="0.20416666666666666" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/activity_hotel_details.xml" value="0.19722222222222222" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/activity_tour.xml" value="0.20416666666666666" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/fragment_offer.xml" value="0.20416666666666666" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/fragment_tour.xml" value="0.20416666666666666" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/layout/tour_layout.xml" value="0.20416666666666666" />
+        <entry key="..\:/Booking-App-Design/app/src/main/res/menu/bottom_navigation.xml" value="0.20416666666666666" />
         <entry key="..\:/BookingApp/app/src/main/res/drawable-v24/border.xml" value="0.1345" />
         <entry key="..\:/BookingApp/app/src/main/res/drawable/border.xml" value="0.101" />
         <entry key="..\:/BookingApp/app/src/main/res/drawable/bottom_navigation_background.xml" value="0.1435" />

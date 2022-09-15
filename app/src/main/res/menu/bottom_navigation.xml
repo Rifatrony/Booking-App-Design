@@ -6,13 +6,13 @@
         android:icon="@drawable/home"/>
 
     <item
-        android:title="Tour"
-        android:id="@+id/tour"
+        android:title="Booking"
+        android:id="@+id/booking"
         android:icon="@drawable/beach"/>
 
     <item
-        android:title="Car"
-        android:id="@+id/car"
+        android:title="Offer"
+        android:id="@+id/offer"
         android:icon="@drawable/car"/>
 
     <item

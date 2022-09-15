@@ -11,7 +11,7 @@ import android.view.ViewGroup;
 import com.binaryit.bookingapp.R;
 
 
-public class TourFragment extends Fragment {
+public class BookingFragment extends Fragment {
 
 
 
@@ -19,6 +19,6 @@ public class TourFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_tour, container, false);
+        return inflater.inflate(R.layout.fragment_booking, container, false);
     }
 }

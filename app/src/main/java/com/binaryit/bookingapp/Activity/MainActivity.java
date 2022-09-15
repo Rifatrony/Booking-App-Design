@@ -13,10 +13,10 @@ import android.view.MenuItem;
 import android.view.WindowManager;
 import android.widget.FrameLayout;
 
-import com.binaryit.bookingapp.Fragment.CarFragment;
+import com.binaryit.bookingapp.Fragment.OfferFragment;
 import com.binaryit.bookingapp.Fragment.HomeFragment;
 import com.binaryit.bookingapp.Fragment.ProfileFragment;
-import com.binaryit.bookingapp.Fragment.TourFragment;
+import com.binaryit.bookingapp.Fragment.BookingFragment;
 import com.binaryit.bookingapp.R;
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
@@ -52,12 +52,12 @@ public class MainActivity extends AppCompatActivity{
                         replaceFragment(new HomeFragment());
                         break;
 
-                    case R.id.tour:
-                        replaceFragment(new TourFragment());
+                    case R.id.booking:
+                        replaceFragment(new BookingFragment());
                         break;
 
-                    case R.id.car:
-                        replaceFragment(new CarFragment());
+                    case R.id.offer:
+                        replaceFragment(new OfferFragment());
                         break;
 
                     case R.id.profile:
