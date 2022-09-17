@@ -1,6 +1,8 @@
 package com.binaryit.bookingapp.Adapter;
 
 import android.content.Context;
+import android.content.Intent;
+import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.binaryit.bookingapp.Activity.TourDetailsActivity;
 import com.binaryit.bookingapp.Model.TourModel;
 import com.binaryit.bookingapp.R;
 import com.bumptech.glide.Glide;
@@ -41,6 +44,33 @@ public class TourAdapter extends RecyclerView.Adapter<TourAdapter.TourViewHolder
         holder.durationTextView.setText(model.getDuration());
 
         Glide.with(context).load(model.getImage()).into(holder.packageImage);
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Bundle bundle = new Bundle();
+
+                Intent intent = new Intent(context, TourDetailsActivity.class);
+                bundle.putInt("image", model.getImage());
+                bundle.putString("tourName", model.getTourName());
+                bundle.putString("tourLocation", model.getTourLocation());
+                bundle.putString("duration", model.getDuration());
+                bundle.putString("tourType", model.getTourType());
+                bundle.putString("generalInformation", model.getGeneralInformation());
+                bundle.putString("date", model.getDate());
+                bundle.putString("include", model.getInclude());
+                bundle.putString("exclude", model.getExclude());
+                bundle.putString("food", model.getFood());
+                bundle.putString("travelDetails", model.getTravelDetails());
+                bundle.putString("contact", model.getContact());
+                bundle.putDouble("price", model.getPrice());
+                bundle.putDouble("price", model.getPrice());
+                bundle.putInt("groupSize", model.getGroupSize());
+                intent.putExtras(bundle);
+
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override

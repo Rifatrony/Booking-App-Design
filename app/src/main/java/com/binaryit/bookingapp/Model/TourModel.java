@@ -2,7 +2,8 @@ package com.binaryit.bookingapp.Model;
 
 public class TourModel {
 
-    String tourName, tourLocation, duration, tourType, generalInformation, date, include, exclude, food, travelDetails, contact;
+    String tourName, tourLocation, duration, tourType, generalInformation, date, include,
+            exclude, food, travelDetails, contact;
 
     double price;
     int groupSize, image;
