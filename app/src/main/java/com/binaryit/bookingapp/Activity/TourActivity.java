@@ -5,15 +5,19 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.os.Bundle;
+import android.view.View;
 
 import com.binaryit.bookingapp.Adapter.TourAdapter;
 import com.binaryit.bookingapp.Model.TourModel;
 import com.binaryit.bookingapp.R;
+import com.binaryit.bookingapp.databinding.ActivityTourBinding;
 
 import java.util.ArrayList;
 import java.util.List;
 
 public class TourActivity extends AppCompatActivity {
+
+    ActivityTourBinding binding;
 
     RecyclerView tourRecyclerView;
     List<TourModel> tourModelList;
@@ -22,8 +26,18 @@ public class TourActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_tour);
 
+        binding = ActivityTourBinding.inflate(getLayoutInflater());
+
+        setContentView(binding.getRoot());
+
+        binding.imageBack.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                onBackPressed();
+                finish();
+            }
+        });
 
         initialization();
 
