@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 
+import com.binaryit.bookingapp.Activity.CarActivity;
 import com.binaryit.bookingapp.Activity.HotelActivity;
 import com.binaryit.bookingapp.Activity.TourActivity;
 import com.binaryit.bookingapp.R;
@@ -67,7 +68,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
                 break;
 
             case R.id.carCardView:
-                SearchCar();
+                startActivity(new Intent(getContext(), CarActivity.class));
                 break;
 
 
@@ -78,7 +79,7 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
         }
     }
 
-    private void SearchCar() {
+    /*private void SearchCar() {
 
         bottomSheetDialog.setContentView(R.layout.select_car_bottom_layout);
         bottomSheetDialog.show();
@@ -118,5 +119,5 @@ public class HomeFragment extends Fragment implements View.OnClickListener {
             }
         });
 
-    }
+    }*/
 }

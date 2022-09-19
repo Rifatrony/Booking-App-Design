@@ -299,16 +299,12 @@ public class HotelActivity extends AppCompatActivity implements View.OnClickList
                 System.out.println("Total Guest is : " + countGuest);
                 System.out.println("Total Children is : " + countChildren);
 
-
                 totalGuest = countGuest + countChildren;
                 totalGuestTextView.setText(String.valueOf(totalGuest));
                 totalRoomTextView.setText(String.valueOf(countRoom));
 
-
             }
         });
-
-
     }
 
     private void Search(){
