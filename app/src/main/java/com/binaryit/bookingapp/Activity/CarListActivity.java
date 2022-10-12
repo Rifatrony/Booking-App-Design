@@ -55,7 +55,7 @@ public class CarListActivity extends AppCompatActivity {
         binding.dateTextView.setText(date);
 
         recyclerView = findViewById(R.id.carRecyclerView);
-        recyclerView.setLayoutManager(new GridLayoutManager(this, 2));
+        recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
         carModelList = new ArrayList<>();
 

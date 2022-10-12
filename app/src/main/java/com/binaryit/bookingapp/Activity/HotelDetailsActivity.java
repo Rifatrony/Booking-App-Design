@@ -8,7 +8,11 @@ import android.widget.ImageView;
 import android.widget.RatingBar;
 import android.widget.TextView;
 
+import com.binaryit.bookingapp.Adapter.SliderAdapter;
 import com.binaryit.bookingapp.R;
+import com.smarteist.autoimageslider.IndicatorView.animation.type.IndicatorAnimationType;
+import com.smarteist.autoimageslider.SliderAnimations;
+import com.smarteist.autoimageslider.SliderView;
 
 public class HotelDetailsActivity extends AppCompatActivity {
 
@@ -19,6 +23,13 @@ public class HotelDetailsActivity extends AppCompatActivity {
     TextView hotelNameTextView, hotelTitleNameTextView, locationTextView;
     ImageView imageView, imageBack;
     RatingBar hotelRating;
+    int images[] = {
+            R.drawable.see_crown,
+            R.drawable.seebeach,
+            R.drawable.hotel_see_gurl,
+    };
+
+    SliderView sliderView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -35,7 +46,7 @@ public class HotelDetailsActivity extends AppCompatActivity {
         System.out.println(star);
         System.out.println(name);
 
-        imageView.setImageResource(image);
+        //imageView.setImageResource(image);
         hotelNameTextView.setText(name);
         hotelTitleNameTextView.setText(name);
         locationTextView.setText(location);
@@ -46,13 +57,20 @@ public class HotelDetailsActivity extends AppCompatActivity {
             public void onClick(View view) {
                 onBackPressed();
             }
+
         });
+
+        SliderAdapter sliderAdapter = new SliderAdapter(images);
+        sliderView.setSliderAdapter(sliderAdapter);
+        sliderView.setIndicatorAnimation(IndicatorAnimationType.WORM);
+        sliderView.setSliderTransformAnimation(SliderAnimations.DEPTHTRANSFORMATION);
+        sliderView.startAutoCycle();
 
     }
 
     private void initialization() {
+        sliderView = findViewById(R.id.imageView);
         imageBack = findViewById(R.id.imageBack);
-        imageView = findViewById(R.id.imageView);
         hotelTitleNameTextView = findViewById(R.id.hotelTitleNameTextView);
         hotelNameTextView = findViewById(R.id.hotelNameTextView);
         locationTextView = findViewById(R.id.locationTextView);

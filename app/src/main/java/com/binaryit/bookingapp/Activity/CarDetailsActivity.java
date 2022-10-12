@@ -41,7 +41,5 @@ public class CarDetailsActivity extends AppCompatActivity {
         binding.titleTextView.setText(name);
         binding.nameTextView.setText(name);
 
-
-
     }
 }
